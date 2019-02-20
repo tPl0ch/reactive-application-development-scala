@@ -1,5 +1,5 @@
 val akkaVersion = "2.4.17"
-val logbackVer = "1.2.1"
+val logbackVer = "1.2.3"
 
 name := "chapter3_002_elasticity"
 organization := "com.rarebooks"

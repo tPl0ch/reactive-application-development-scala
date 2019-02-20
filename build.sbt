@@ -1,10 +1,10 @@
-val akkaVersion = "2.5.4"
+val akkaVersion = "2.5.21"
 
 val logbackVersion = "1.2.3"
 
-val scalaLogging = "3.7.2"
+val scalaLogging = "3.9.0"
 
-val scalacticVersion = "3.0.1"
+val scalacticVersion = "3.0.5"
 
 val scalaTestVersion = scalacticVersion
 
@@ -12,7 +12,7 @@ val parserCombinatorVersion = "1.0.6"
 
 lazy val commonSettings = Seq(
   version := "0.4-SNAPSHOT",
-  scalaVersion := "2.12.3"
+  scalaVersion := "2.12.8"
 )
 
 parallelExecution in Test := false
